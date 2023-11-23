@@ -1,0 +1,104 @@
+body {
+        font-family: 'Arial', sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+    }
+
+    h2 {
+        color: #333;
+        text-align: center;
+    }
+
+    #taskInput {
+        width: 60%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    #addBtn, #updateBtn, #deleteBtn {
+        padding: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    #addBtn:hover, #updateBtn:hover, #deleteBtn:hover {
+        background-color: #45a049;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .task-item span {
+        flex-grow: 1;
+    }
+
+    button {
+        background-color: #d9534f;
+        color: white;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #c9302c;
+    }
+
+    h3 {
+        color: #2c3e50;
+        margin-top: 20px;
+    }
+
+    #completedList {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #completedList li {
+        margin-bottom: 10px;
+        background-color: #ecf0f1;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .completed {
+        text-decoration: line-through;
+        color: #888;
+    }
+
+    #filter {
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
